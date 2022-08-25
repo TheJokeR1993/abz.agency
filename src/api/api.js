@@ -10,7 +10,7 @@ const instos = axios.create({
   baseURL: "https://frontend-test-assignment-api.abz.agency/api/v1/",
 });
 
-let num=1
+let num=2
 
 const api = {
   users: (page,count) =>
@@ -42,7 +42,6 @@ const api = {
         })
         .then(response => response.json())  
         .then(data=>{
-          console.log(data);
           if(data.success) {  
             store.dispatch(onChangeState({key:'success',value:true}))
            

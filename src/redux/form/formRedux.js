@@ -24,7 +24,6 @@ const  formSlice = createSlice({
         state.position = action.payload
        },
        onChangeState(state,action){
-        console.log(action.payload);
          state[action.payload.key]=action.payload.value
        }
     }

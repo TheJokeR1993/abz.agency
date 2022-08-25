@@ -20,7 +20,7 @@ function Card() {
     : <CardItem key={i.id} item={i} />)
   );
  
-console.log(card);
+
   const click = () => {
     api.users().then((i) => {
       if(i.total_users===total_users){
