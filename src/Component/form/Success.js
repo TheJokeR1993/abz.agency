@@ -10,7 +10,7 @@ const Success =()=>{
    
 return <div className="form_div">
     <h1>User successfully registered</h1>
-    <img src={image}/>
+    <img src={image} alt=""/>
 </div>
 }
 export default Success

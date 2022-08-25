@@ -1,12 +1,11 @@
-import { useState } from "react";
+
 import api from "../../api/api";
 import "../../index.scss";
 import Inputmask from "inputmask";
 import Success from "./Success";
 import { useDispatch, useSelector } from "react-redux";
 import { onChangeState } from "../../redux/form/formRedux";
-import { connectSignUp } from "../../redux/connect";
-import store from "../../redux/redux";
+
 
 function Form() {
   const { name, email, phone, photo, position, position_id, error, success } =
