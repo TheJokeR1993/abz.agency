@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TheJokeR1993/abz.agency.git/static/css/main.13470ee5.css",
+    "main.js": "/TheJokeR1993/abz.agency.git/static/js/main.81e38f45.js",
+    "static/media/image.png": "/TheJokeR1993/abz.agency.git/static/media/image.233e399bd2ec35e6b40b.png",
+    "static/media/success-image.png": "/TheJokeR1993/abz.agency.git/static/media/success-image.70e7b78bd94f0925fe88.png",
+    "index.html": "/TheJokeR1993/abz.agency.git/index.html",
+    "main.13470ee5.css.map": "/TheJokeR1993/abz.agency.git/static/css/main.13470ee5.css.map",
+    "main.81e38f45.js.map": "/TheJokeR1993/abz.agency.git/static/js/main.81e38f45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13470ee5.css",
+    "static/js/main.81e38f45.js"
+  ]
+}
