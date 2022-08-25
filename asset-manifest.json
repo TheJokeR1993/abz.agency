@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TheJokeR1993/abz.agency.git/static/css/main.13470ee5.css",
-    "main.js": "/TheJokeR1993/abz.agency.git/static/js/main.7cb5b8d0.js",
-    "static/media/image.png": "/TheJokeR1993/abz.agency.git/static/media/image.233e399bd2ec35e6b40b.png",
-    "static/media/success-image.png": "/TheJokeR1993/abz.agency.git/static/media/success-image.70e7b78bd94f0925fe88.png",
-    "index.html": "/TheJokeR1993/abz.agency.git/index.html",
-    "main.13470ee5.css.map": "/TheJokeR1993/abz.agency.git/static/css/main.13470ee5.css.map",
-    "main.7cb5b8d0.js.map": "/TheJokeR1993/abz.agency.git/static/js/main.7cb5b8d0.js.map"
+    "main.css": "/abz.agency/static/css/main.e0676f6a.css",
+    "main.js": "/abz.agency/static/js/main.bc1eca9d.js",
+    "static/media/image.png": "/abz.agency/static/media/image.233e399bd2ec35e6b40b.png",
+    "static/media/success-image.png": "/abz.agency/static/media/success-image.70e7b78bd94f0925fe88.png",
+    "index.html": "/abz.agency/index.html",
+    "main.e0676f6a.css.map": "/abz.agency/static/css/main.e0676f6a.css.map",
+    "main.bc1eca9d.js.map": "/abz.agency/static/js/main.bc1eca9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.13470ee5.css",
-    "static/js/main.7cb5b8d0.js"
+    "static/css/main.e0676f6a.css",
+    "static/js/main.bc1eca9d.js"
   ]
 }
