@@ -22,7 +22,7 @@ function Card() {
  
 
   const click = () => {
-    api.users().then((i) => {
+    api.users(card.length/6+1).then((i) => {
       if(i.total_users===total_users){
         dispatch(addChangeState(i.users))
       }else{

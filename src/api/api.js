@@ -10,11 +10,11 @@ const instos = axios.create({
   baseURL: "https://frontend-test-assignment-api.abz.agency/api/v1/",
 });
 
-let num=2
+
 
 const api = {
   users: (page,count) =>
-    instos.get(`users?page=${page?page:num++}&count=${count?count:6}`)
+    instos.get(`users?page=${page}&count=${count?count:6}`)
       .then(errorF),
   positions: () => instos.get("positions")
   .then(errorF),
