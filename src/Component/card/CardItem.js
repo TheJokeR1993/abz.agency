@@ -2,6 +2,7 @@ import "../../index.scss";
 import photo from "../../img/Vector.jpg";
 import {  useState } from "react";
 import ReactTooltip from 'react-tooltip';
+
 function CardItem(props) {
   const [imgSrc, setImgSrc] = useState(props.item.photo);
   const numberPhone = +props.item.phone + "";

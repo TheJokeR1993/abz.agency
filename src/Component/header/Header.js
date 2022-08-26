@@ -1,5 +1,5 @@
 import  '../../index.scss'
-import logo from '../../img/Grouplogo.png'
+import logo from '../../img/Grouplogo.jpg'
 
 function Header() {
     return <div className='header'>

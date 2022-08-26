@@ -1,4 +1,4 @@
-import image from '../img/Preloader.png'
+import image from '../img/Preloader.jpg'
 
 const Preloader =()=>{
     return <div className="card_item preloader">

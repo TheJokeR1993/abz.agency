@@ -15,32 +15,29 @@ function Card() {
   const dispatch = useDispatch();
 
   const cardMemo = useMemo(() =>
-    card.map((i,index) =>i===''
-    ?<Preloader key={index}  /> 
-    : <CardItem key={i.id} item={i} />)
+    card.map((i, index) =>
+      i === "" ? <Preloader key={index} /> : <CardItem key={i.id} item={i} />
+    )
   );
- 
 
   const click = () => {
-    api.users(card.length/6+1).then((i) => {
-      if(i.total_users===total_users){
-        dispatch(addChangeState(i.users))
-      }else{
-        const count = i.total_users-total_users
-        const arr=i.users.slice(count)
-        api.users(1,count)
-        .then(user=>{
-          dispatch(addChangeState(arr))
-          dispatch(unshiftChangeState(user.users))
-          dispatch(changeTotalUsers(i.total_users))
-        })
+    api.users(card.length / 6 + 1).then((i) => {
+      if (i.total_users === total_users) {
+        dispatch(addChangeState(i.users));
+      } else {
+        const count = i.total_users - total_users;
+        const arr = i.users.slice(count);
+        api.users(1, count).then((user) => {
+          dispatch(addChangeState(arr));
+          dispatch(unshiftChangeState(user.users));
+          dispatch(changeTotalUsers(i.total_users));
+        });
       }
     });
   };
 
-  
-  
-  return  <div className="container">
+  return (
+    <div className="container">
       <div className="card">
         <h1 title="asdas">Working with GET request</h1>
         <div className="card_all">{cardMemo}</div>
@@ -49,7 +46,7 @@ function Card() {
         )}
       </div>
     </div>
-  
+  );
 }
 
 export default Card;

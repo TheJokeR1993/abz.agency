@@ -1,11 +1,9 @@
-
 import api from "../../api/api";
 import "../../index.scss";
 import Inputmask from "inputmask";
 import Success from "./Success";
 import { useDispatch, useSelector } from "react-redux";
 import { onChangeState } from "../../redux/form/formRedux";
-
 
 function Form() {
   const { name, email, phone, photo, position, position_id, error, success } =
